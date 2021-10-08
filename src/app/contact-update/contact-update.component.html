@@ -1,1 +1,19 @@
-<p>contact-update works!</p>
+<mat-toolbar color="primary">
+    <h1>Editar Contato</h1>
+</mat-toolbar>
+
+<form>
+    <mat-form-field appearance="fill">
+        <mat-label>Nome</mat-label>
+        <input matInput>
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+        <mat-label>Telefone</mat-label>
+        <input matInput>
+    </mat-form-field>
+
+    <div class="form-buttons">
+        <a routerLink="/contacts" mat-raised-button>Voltar</a>
+        <button mat-raised-button color="primary" type="submit">Atualizar</button>
+    </div>
+</form>

@@ -1,0 +1,12 @@
+form {
+    padding:10px;
+}
+
+form mat-form-field {
+    display:block;
+}
+
+form .form-buttons {
+    display:flex;
+    justify-content: space-between;
+}
