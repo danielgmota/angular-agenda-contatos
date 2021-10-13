@@ -1,0 +1,29 @@
+{
+    "contacts": [
+        {
+            "id": 1,
+            "name": "Daniel",
+            "phone": "21 99999-9999"
+        },
+        {
+            "id": 2,
+            "name": "Fulano",
+            "phone": "11 98888-7777"
+        },
+        {
+            "id": 2,
+            "name": "Beltrano",
+            "phone": "31 96666-5555"
+        },
+        {
+            "id": 3,
+            "name": "Ciclano",
+            "phone": "41 94444-3333"
+        },
+        {
+            "id": 4,
+            "name": "Godofredo",
+            "phone": "51 92222-1111"
+        }
+    ]
+}
