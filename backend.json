@@ -1,11 +1,6 @@
 {
   "contacts": [
     {
-      "id": 1,
-      "name": "Daniel",
-      "phone": "21 99999-9999"
-    },
-    {
       "id": 2,
       "name": "Fulano",
       "phone": "11 98888-7777"
