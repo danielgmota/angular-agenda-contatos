@@ -32,7 +32,7 @@ export class ContactsService {
     return this.http.put<Contact>(`${urlBase}/contacts/${contact.id}`, contact);
   }
 
-  delelteContact(id: number) {
+  deleteContact(id: number) {
     return this.http.delete(`${urlBase}/contacts/${id}`);
   }
 }

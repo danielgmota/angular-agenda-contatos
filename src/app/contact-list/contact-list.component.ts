@@ -16,4 +16,11 @@ export class ContactListComponent implements OnInit {
     })
   }
 
+  deleteContact(contact: Contact) {
+    this.contactService.deleteContact(contact.id).subscribe(() => {
+      const index = this.contacts.indexOf(contact);
+      this.contacts.splice(index, 1);
+    })
+  }
+
 }
